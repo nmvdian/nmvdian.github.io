@@ -15,7 +15,8 @@ define(['GS','controller/module'],function(GS,CM) {
 
             
             if(!GS.isLogin()){
-                mainView.router.reloadPage('page/loading.html');
+                //mainView.router.reloadPage('page/loading.html');
+                mainView.router.reloadPage('index.html');
             }else{
                 mainView.router.reloadPage('index.html');
             }
