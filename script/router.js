@@ -13,13 +13,15 @@ define(['GS','controller/module'],function(GS,CM) {
                 router.pageAfterAnimation(page);
             });
 
-            
+            /*
             if(!GS.isLogin()){
                 //mainView.router.reloadPage('page/loading.html');
                 mainView.router.reloadPage('index.html');
             }else{
                 mainView.router.reloadPage('index.html');
             }
+            */
+            mainView.router.reloadPage('index.html');
 
         },
 
@@ -31,7 +33,7 @@ define(['GS','controller/module'],function(GS,CM) {
             if(name === 'homeView' || name === 'contatcView' || name === 'setting' ){
                 if(from === 'left' && swipeBack){
 
-                    CM.module('appCtrl').showToolbar();
+                    //CM.module('appCtrl').showToolbar();
                 }
             }
         },
