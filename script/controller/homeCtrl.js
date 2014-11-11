@@ -5,8 +5,7 @@ define(['utils/appFunc','utils/xhr','view/module'],function(appFunc,xhr,VM){
         init: function(){
 
             VM.module('homeView').init();
-            appFunc.hideToolbar('.views');
-            appFunc.hideNavbar('.views');
+            
             //this.getTimeline();
         },
 
