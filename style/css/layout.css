@@ -1,0 +1,29 @@
+.layout-black .navbar,
+.navbar.layout-black {
+  border-bottom-color:#c00;
+  background-color: #cf201c;
+  color: #ffffff;
+}
+.layout-black .toolbar,
+.toolbar.layout-black {
+  border-bottom-color:#c00;
+  background-color: #262932;
+  color: #ffffff;
+}
+.layout-black .page{background: #fff}
+
+.loading{background: url(../img/20140823123620628_easyicon_net_96.png) no-repeat center center;}
+.theme-red .page{background: #fff}
+
+.theme-black .navbar,
+.navbar.theme-black {
+  border-bottom-color:#c00;
+  background-color: #262932;
+  color: #ffffff;
+}
+.theme-black .toolbar,
+.toolbar.theme-black {
+  border-bottom-color:#c00;
+  background-color: #262932;
+  color: #ffffff;
+}
