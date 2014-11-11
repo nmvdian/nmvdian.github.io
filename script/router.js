@@ -37,9 +37,9 @@ define(['GS','controller/module'],function(GS,CM) {
         },
 
         pageBeforeInit: function(page) {
-            var name = page.name;
+            var name  = page.name;
             var query = page.query;
-            var from = page.from;
+            var from  = page.from;
             switch (name) {
                 case 'loading':
                     if(from === 'left') return;
