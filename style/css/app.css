@@ -947,11 +947,14 @@ html.retina.ios-gt-7 .toolbar {
   padding-bottom: 44px;
 }
 .hidden-navbar .navbar {
+  /*
   -webkit-transition-duration: 400ms;
   transition-duration: 400ms;
   -webkit-transform: translate3d(0, -100%, 0);
   -ms-transform: translate3d(0, -100%, 0);
   transform: translate3d(0, -100%, 0);
+  */
+  display: none;
 }
 .hiding-navbar .navbar {
   -webkit-transition-duration: 400ms;
@@ -964,11 +967,14 @@ html.retina.ios-gt-7 .toolbar {
   padding-top: 0;
 }
 .hidden-toolbar .toolbar {
+  /*
   -webkit-transition-duration: 400ms;
   transition-duration: 400ms;
   -webkit-transform: translate3d(0, 100%, 0);
   -ms-transform: translate3d(0, 100%, 0);
   transform: translate3d(0, 100%, 0);
+  */
+  display: none;
 }
 .hiding-toolbar .toolbar {
   -webkit-transition-duration: 400ms;
