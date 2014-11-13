@@ -21,7 +21,7 @@ define(['GS','controller/module'],function(GS,CM) {
                 mainView.router.reloadPage('index.html');
             }
             */
-            mainView.router.reloadPage('index.html');
+            //mainView.router.reloadPage('index.html');
 
         },
 
