@@ -40,7 +40,7 @@
             initMainView:function(){
                 window.$$ = Dom7;
 
-                window.nmvdian = new frame({
+                window.nmvdian = new NMVDIAN({
 
                     pushState: false,
                     pushStateRoot: undefined,

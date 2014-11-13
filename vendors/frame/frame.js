@@ -1,5 +1,5 @@
 /*
- * Framework7 0.9.7
+ * NMVDIAN 0.9.7
  * Full Featured HTML Framework For Building iOS 7 Apps
  *
  * http://www.idangero.us/framework7
@@ -18,7 +18,7 @@
     /*===========================
     Framework 7
     ===========================*/
-    window.Framework7 = function (params) {
+    window.NMVDIAN = function (params) {
     
         // App
         var app = this;
@@ -91,7 +91,7 @@
             modalButtonCancel: 'Cancel',
             modalUsernamePlaceholder: 'Username',
             modalPasswordPlaceholder: 'Password',
-            modalTitle: 'Framework7',
+            modalTitle: 'NMVDIAN',
             modalCloseByOutside: false,
             actionsCloseByOutside: true,
             popupCloseByOutside: true,
@@ -7787,8 +7787,8 @@
         return $;
     })();
     
-    // Export Dom7 to Framework7
-    Framework7.$ = Dom7;
+    // Export Dom7 to NMVDIAN
+    NMVDIAN.$ = Dom7;
     
     // Export to local scope
     var $ = Dom7;
@@ -7799,7 +7799,7 @@
     /*===========================
     Features Support Detection
     ===========================*/
-    Framework7.prototype.support = (function () {
+    NMVDIAN.prototype.support = (function () {
         var support = {
             touch: !!(('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch)
         };
@@ -7811,7 +7811,7 @@
     /*===========================
     Device/OS Detection
     ===========================*/
-    Framework7.prototype.device = (function () {
+    NMVDIAN.prototype.device = (function () {
         var device = {};
         var ua = navigator.userAgent;
         var $ = Dom7;
@@ -7914,7 +7914,7 @@
     /*===========================
     Plugins prototype
     ===========================*/
-    Framework7.prototype.plugins = {};
+    NMVDIAN.prototype.plugins = {};
     
 })();
 
