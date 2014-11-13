@@ -57,7 +57,7 @@
                     cache: true,
                     cacheIgnore: [],
                     cacheIgnoreGetParameters: false,
-                    cacheDuration: 1000 * 60 * 10, // Ten minutes 
+                    cacheDuration: 1000 * 60 * 5, // Ten minutes 
                     preloadPreviousPage: true,
                     uniqueHistory: false,
                     uniqueHistoryIgnoreGetParameters: false,
